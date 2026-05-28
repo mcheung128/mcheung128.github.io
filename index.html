@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael Cheung | Portfolio</title>
+    <meta
+      name="description"
+      content="Michael Cheung is a software builder blending code, music, coffee, and thoughtful design into practical products."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top">Michael Cheung</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <h1>Hello, I'm Michael!</h1>
+            <p class="hero-text">
+              I'm a developer who likes coding, clever ideas, and coffee.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">View Projects</a>
+              <a class="button button-secondary" href="#contact">Get In Touch</a>
+            </div>
+          </div>
+          <div class="hero-photo-wrap">
+            <figure class="hero-photo">
+              <img
+                src="headshot.jpg"
+                alt="Headshot of Michael Cheung"
+                width="640"
+                height="800"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <section class="about section" id="about">
+          <div class="section-heading">
+            <p class="eyebrow">Who I Am</p>
+            <h2>Part coder, part musician, part coffee guy...</h2>
+          </div>
+          <div class="about-grid">
+            <p>
+              I like building tools that are creative and
+              useful! Whether I’m working on audio software, frontend interfaces,
+              or a campus coffee pop-up, I care about the small details that make an
+              experience feel smooth and exciting.
+            </p>
+            <p>
+              My sweet spot is making messy real-world problems into clean,
+              practical solutions. I’m especially drawn to music technology, AI-assisted
+              tools, and products that help people create faster.
+            </p>
+          </div>
+          <div class="skill-row" aria-label="Core skills">
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>HTML/CSS</span>
+            <span>Machine Learning</span>
+            <span>C++</span>
+            <span>Computer Vision</span>
+          </div>
+        </section>
+
+        <section class="projects section" id="projects">
+          <div class="section-heading">
+            <p class="eyebrow">Portfolio</p>
+            <h2>What I'm up to...</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <p class="project-tag">Featured Project</p>
+              <h3>Stem Seperation and Chord Finder</h3>
+              <p>
+                A music-tech tool that lets users upload a song, isolate the keys stem,
+                and generate chord sheets, BPM, and key detection. Basically, it helps
+                musicians get to the good part faster.
+              </p>
+                
+              <div class="project-meta">
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>Audio Processing</span>
+                <span>Music Theory</span>
+              </div>
+            </article>
+            <article class="project-card">
+              <p class="project-tag">Project</p>
+              <h3>Self Driving Car</h3>
+              <p>
+                Built a self-driving car using a Raspberry Pi, camera module, ultrasonic sensor,
+                and custom Python code. It can navigate a track autonomously, avoid
+                obstacles, detect stop signs, and make real-time decisions.
+              </p>
+
+              <div class="project-meta">
+                <span>Python</span>
+                <span>Computer Vision</span>
+                <span>Embedded Systems</span>
+              </div>
+            </article>
+            <article class="project-card">
+              <p class="project-tag">Campus Project</p>
+              <h3>Pop-Up Coffee Shop</h3>
+              <p>
+                Hosted pop-up coffee shop for campus ministry, serving 30+ people
+                at a time. It was equal parts hospitality, workflow design, and making
+                sure nobody had to drink sad coffee.
+              </p>
+            </article>
+
+            
+          </div>
+        </section>
+
+        <section class="contact section" id="contact">
+          <div class="contact-card">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s Connect</h2>
+            <div class="contact-links">
+              
+              <a href="https://github.com/mcheung128" target="_blank" rel="noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M12 1.5a10.5 10.5 0 0 0-3.32 20.46c.53.1.72-.23.72-.51v-1.95c-2.94.64-3.56-1.25-3.56-1.25-.48-1.2-1.17-1.52-1.17-1.52-.96-.65.07-.64.07-.64 1.05.07 1.61 1.08 1.61 1.08.94 1.6 2.46 1.14 3.06.87.1-.68.37-1.14.66-1.4-2.35-.27-4.83-1.18-4.83-5.23 0-1.15.41-2.08 1.08-2.82-.11-.27-.47-1.36.1-2.84 0 0 .89-.28 2.91 1.08A10.1 10.1 0 0 1 12 6.7c.9 0 1.81.12 2.66.36 2.02-1.36 2.91-1.08 2.91-1.08.57 1.48.21 2.57.1 2.84.67.74 1.08 1.67 1.08 2.82 0 4.06-2.48 4.96-4.84 5.22.38.33.72.98.72 1.98v2.94c0 .28.19.61.73.51A10.5 10.5 0 0 0 12 1.5Z" />
+                </svg>
+                <span>GitHub</span>
+              </a>
+              <a href="https://www.linkedin.com/in/michael-cheung-b90a39272/" target="_blank" rel="noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3A1.97 1.97 0 1 0 5.3 6.94 1.97 1.97 0 0 0 5.25 3Zm6.88 5.5H8.88V20h3.25v-5.7c0-1.5.28-2.96 2.14-2.96 1.84 0 1.86 1.72 1.86 3.06V20h3.25v-6.27c0-3.08-.66-5.45-4.26-5.45-1.73 0-2.88.95-3.35 1.85h-.05V8.5Z" />
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="mailto:michaelcheung128@gmail.com">michaelcheung128@gmail.com</a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
